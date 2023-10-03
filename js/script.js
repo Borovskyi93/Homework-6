@@ -4,6 +4,7 @@ const userFavSport = prompt('Який ваш улюблений спорт?');
 
 userBirthYear ? alert(`Вам ${2023 - userBirthYear}`) : alert('Шкода що ти не захотів вказувати рік народження(');
 
+console.log(userBirthYear);
 switch (userCity) {
     case 'Київ':
         alert('Ти живеш у столиці України!');
@@ -14,6 +15,7 @@ switch (userCity) {
     case 'Лондон':
         alert('Ти живеш у столиці Англії!');
         break;
+    case '':
     case null:
         alert('Шкода що ти не захотів вказувати місто(');
         break;
@@ -31,6 +33,7 @@ switch (userFavSport) {
     case 'Формула 1':
         alert('Круто! Хочеш стати Льюїсом Хемілтоном');
         break;
+    case '':
     case null:
         alert('Шкода що ти не захотів вказувати улюблений спорт(');
         break;
